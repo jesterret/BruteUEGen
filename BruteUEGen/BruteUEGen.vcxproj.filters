@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\format">
+      <UniqueIdentifier>{dbd46059-eb6c-456f-a195-81563597b1ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\format">
+      <UniqueIdentifier>{a5b16236-0d22-41e5-8f00-a4f45da4db89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generators">
+      <UniqueIdentifier>{d253d181-7894-42a3-83d6-a8185df16359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Generators">
+      <UniqueIdentifier>{db153dbb-f3e5-43ce-ace3-e6e5b119f00b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{e87aff82-578d-4cf0-9462-6b62ec5b5cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{4954a6c0-752f-434b-a3d9-9f048847bfcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generators\BaseClasses">
+      <UniqueIdentifier>{edbba178-a556-40a4-8642-4436c9fb87a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Generators\BaseClasses">
+      <UniqueIdentifier>{727e68df-374b-49b5-bc28-22eceef7ca73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Generators\BaseClasses\PropertyTypes">
+      <UniqueIdentifier>{ba32200f-1111-4f9b-a78f-db46ac0b9857}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="format\format.h">
+      <Filter>Header Files\format</Filter>
+    </ClInclude>
+    <ClInclude Include="format\ostream.h">
+      <Filter>Header Files\format</Filter>
+    </ClInclude>
+    <ClInclude Include="format\posix.h">
+      <Filter>Header Files\format</Filter>
+    </ClInclude>
+    <ClInclude Include="format\time.h">
+      <Filter>Header Files\format</Filter>
+    </ClInclude>
+    <ClInclude Include="Signature.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CVars.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="UEGenBase.h">
+      <Filter>Header Files\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="UObject.h">
+      <Filter>Header Files\Generators\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="FName.h">
+      <Filter>Header Files\Generators\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="TArray.h">
+      <Filter>Header Files\Generators\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="FNameEntry.h">
+      <Filter>Header Files\Generators\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="UField.h">
+      <Filter>Header Files\Generators\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="UClass.h">
+      <Filter>Header Files\Generators\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="UStruct.h">
+      <Filter>Header Files\Generators\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="UFunction.h">
+      <Filter>Header Files\Generators\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="UProperty.h">
+      <Filter>Header Files\Generators\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="UConst.h">
+      <Filter>Header Files\Generators\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="UEnum.h">
+      <Filter>Header Files\Generators\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="UByteProperty.h">
+      <Filter>Header Files\Generators\BaseClasses\PropertyTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UIntProperty.h">
+      <Filter>Header Files\Generators\BaseClasses\PropertyTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UFloatProperty.h">
+      <Filter>Header Files\Generators\BaseClasses\PropertyTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UDoubleProperty.h">
+      <Filter>Header Files\Generators\BaseClasses\PropertyTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UBoolProperty.h">
+      <Filter>Header Files\Generators\BaseClasses\PropertyTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UStrProperty.h">
+      <Filter>Header Files\Generators\BaseClasses\PropertyTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UNameProperty.h">
+      <Filter>Header Files\Generators\BaseClasses\PropertyTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UDelegateProperty.h">
+      <Filter>Header Files\Generators\BaseClasses\PropertyTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UObjectProperty.h">
+      <Filter>Header Files\Generators\BaseClasses\PropertyTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UClassProperty.h">
+      <Filter>Header Files\Generators\BaseClasses\PropertyTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UInterfaceProperty.h">
+      <Filter>Header Files\Generators\BaseClasses\PropertyTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UStructProperty.h">
+      <Filter>Header Files\Generators\BaseClasses\PropertyTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UArrayProperty.h">
+      <Filter>Header Files\Generators\BaseClasses\PropertyTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UPointerProperty.h">
+      <Filter>Header Files\Generators\BaseClasses\PropertyTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UMapProperty.h">
+      <Filter>Header Files\Generators\BaseClasses\PropertyTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UE4GenBase.h">
+      <Filter>Header Files\Generators</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="format\format.cc">
+      <Filter>Source Files\format</Filter>
+    </ClCompile>
+    <ClCompile Include="format\ostream.cc">
+      <Filter>Source Files\format</Filter>
+    </ClCompile>
+    <ClCompile Include="format\posix.cc">
+      <Filter>Source Files\format</Filter>
+    </ClCompile>
+    <ClCompile Include="Signature.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="UEGenBase.cpp">
+      <Filter>Source Files\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="UObject.cpp">
+      <Filter>Source Files\Generators\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="UE4GenBase.cpp">
+      <Filter>Source Files\Generators</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
